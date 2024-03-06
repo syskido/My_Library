@@ -1,0 +1,75 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "JS102011CQN_CNK")
+Pad (Name "1") (Location 0, 0) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rectangular) (Layer Top)
+PadShape (Size 52, 52) (Shape Rectangular) (Layer Bottom)
+EndPad
+Pad (Name "3") (Location 0, -196.85040142) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Top)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 125.98424935, -98.42520142) (HoleSize 32) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -26)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Top)
+PadShape (Size 52, 52) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 6) (Start -36, -275.92520142) (End 161.98429871, -275.92520142) (Layer Mechanical15) 
+Line (Width 6) (Start 161.98429871, -275.92520142) (End 161.98429871, 79.07479858) (Layer Mechanical15) 
+Line (Width 6) (Start 161.98429871, 79.07479858) (End -36, 79.07479858) (Layer Mechanical15) 
+Line (Width 6) (Start -36, 79.07479858) (End -36, -275.92520142) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-36, -275.92520142)
+Point (-36, 79.07479858)
+Point (161.98429871, 79.07479858)
+Point (161.98429871, -275.92520142)
+EndPolygon
+Line (Width 1) (Start 31.49214935, -169.42520142) (End 31.49214935, -27.42520142) (Layer Mechanical13) 
+Line (Width 1) (Start 31.49214935, -27.42520142) (End 94.49214935, -27.42520142) (Layer Mechanical13) 
+Line (Width 1) (Start 94.49214935, -27.42520142) (End 94.49214935, -169.42520142) (Layer Mechanical13) 
+Line (Width 1) (Start 94.49214935, -169.42520142) (End 31.49214935, -169.42520142) (Layer Mechanical13) 
+Line (Width 1) (Start -6.00785065, -265.92520142) (End 131.99214935, -265.92520142) (Layer Mechanical13) 
+Line (Width 1) (Start 131.99214935, -265.92520142) (End 131.99214935, 69.07479858) (Layer Mechanical13) 
+Line (Width 1) (Start 131.99214935, 69.07479858) (End -6.00785065, 69.07479858) (Layer Mechanical13) 
+Line (Width 1) (Start -6.00785065, 69.07479858) (End -6.00785065, -265.92520142) (Layer Mechanical13) 
+Polygon (PointCount 4) (Layer Mechanical13) 
+Point (31.49214935, -169.42520142)
+Point (31.49214935, -98.42520142)
+Point (94.49214935, -98.42520142)
+Point (94.49214935, -169.42520142)
+EndPolygon
+Text (Location -3.50785065, -25) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "*")
+Line (Width 6) (Start 136.99214935, -60.90672374) (End 136.99214935, 74.07479858) (Layer TopOverlay) 
+Line (Width 6) (Start -11.00785065, -270.92520142) (End 136.99214935, -270.92520142) (Layer TopOverlay) 
+Line (Width 6) (Start 136.99214935, -270.92520142) (End 136.99214935, -135.9436791) (Layer TopOverlay) 
+Line (Width 6) (Start 136.99214935, 74.07479858) (End -11.00785065, 74.07479858) (Layer TopOverlay) 
+Line (Width 6) (Start -11.00785065, 74.07479858) (End -11.00785065, 39.09999897) (Layer TopOverlay) 
+Line (Width 6) (Start -11.00785065, -39.1000018) (End -11.00785065, -159.33192374) (Layer TopOverlay) 
+Line (Width 6) (Start -11.00785065, -234.3688791) (End -11.00785065, -270.92520142) (Layer TopOverlay) 
+Text (Location -38.50785065, -25) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "*")
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "JS102011CQN") (PartCount 1) (DesPrefix "SW?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 500, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 500, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Line (Width 5) (Start 337.5, 0) (End 300, 0) (Part 1)
+Line (Width 5) (Start 462.5, 0) (End 500, 0) (Part 1)
+Line (Width 5) (Start 412.5, -100) (End 500, -100) (Part 1)
+Line (Width 5) (Start 400, -100) (End 360, 20) (Part 1)
+Rectangle (Width 5) (Start 300, -200) (End 500, 100) (Part 1)
+Arc (Width 5) (Radius 12) (Location 350, 0) (StartAngle 0) (EndAngle 0) (Part 1)
+Arc (Width 5) (Radius 12) (Location 450, 0) (StartAngle 360) (EndAngle 360) (Part 1)
+Arc (Width 5) (Radius 12) (Location 400, -100) (StartAngle 270) (EndAngle 270) (Part 1)
+Parameter (Name "Type") (Location 400, 200) (Height 82) (Rotation 0) (Justification Center) (Value "Slide Switches") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "C&K Components") (Part 1)
+Parameter (Name "RefDes") (Location 400, 300) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "JS102011CQN_CNK")
+EndComponent
+EndComponents
